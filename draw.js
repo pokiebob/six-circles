@@ -5,8 +5,8 @@ void setup(){
 var w = 600;
 var colorChanger = 255;
 
+// Draw concentric circle
 void draw(){
-    
     stroke(255 - colorChanger , 255 - colorChanger , 255 - colorChanger)
     fill(colorChanger , colorChanger , colorChanger)
     ellipse(300 , 300 , w , w);
@@ -14,7 +14,6 @@ void draw(){
     ellipse(549 , 549 , w/6 , w/6);
     ellipse(549 , 51 , w/6 , w/6);
     ellipse(51 , 549 , w/6 , w/6);
-
     fill(255 - colorChanger , 255 - colorChanger , 255 - colorChanger)
     ellipse(300 , 300 ,  600 - w , 600 - w);
     
